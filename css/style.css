@@ -1,0 +1,187 @@
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #787878;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+body{
+
+  background-color: #F0F8FF;
+
+}
+
+footer{
+	background-color: #7FFFD4;
+	display: table-row;
+	text-align: center;
+	width: 100%;
+}
+ul {
+  list-style-type: none;
+  padding: 5px 455px;
+  margin-left: 100px;
+  top: 0;
+  overflow: hidden;
+  position: absolute;
+  background-color: #00ff00;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 2px 2px;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: #FF00FF;
+}
+a:active {
+  color: #0000FF;
+}
+
+.left {
+	float: left;
+	width: 70%;
+}
+.right {
+	float: right;
+	width: 20%;
+}
+
+.article-left {
+	background-color: #C0C0C0;
+	float: left;
+	width: 33.3%;
+	height: 250px;
+	line-height: 1.4;
+    text-indent: 0px;
+    word-spacing: normal;
+}
+.article-centre {
+	background-color: #FAFAD2;
+	float: left;
+	width: 33.3%;
+	height: 250px;
+	line-height: 1.6;
+	text-indent: 0em;
+	word-spacing: normal;
+}
+.article-right {
+	background-color: #F0E68C;
+	float: left;
+	width: 33.3%;
+	height: 250px;
+	line-height: 1.6;
+    text-indent: 0%;
+    word-spacing: normal;
+}
+/* i used relative here to take the logo to its normal position */
+.logo{
+  position: relative;
+  margin: 10px 15px 15px 10px;
+  height: 60px;
+  z-index: 9999;
+}
+
+/* Defines the spacing between the characters of a block of text and i used it in the heading 1 and heading 2 */
+h1 {
+  color: #800080;
+  letter-spacing: 2px;
+  border-style: double;
+  border-color: red;
+  border-width: medium;
+}
+
+h2 {
+  
+  color: #ff0000;
+  letter-spacing: 1px;
+  border-style: double;
+  border-color: orange;
+  border-width: thin;
+}
+
+.a {
+  line-height: 1.6;
+  text-indent: 0px;
+  word-spacing: normal;
+}
+
+.b {
+  line-height: 1.6;
+  text-indent: 0em;
+  word-spacing: normal;
+}
+
+.c {
+  line-height: 1.6;
+  text-indent: 0%;
+  word-spacing: normal;
+}
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #4B8EE7;
+    text-decoration: none;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #F1D600;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+}
+
+h1, p {
+  background-color: #f0f0f0;
+}
